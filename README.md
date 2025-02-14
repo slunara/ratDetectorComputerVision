@@ -21,5 +21,5 @@ Build a Rat Detector model using the YOLOv10 model.
 - Roboflow provides an intuitive interface for manual annotation and includes additional preprocessing features. While these capabilities were not utilized in this project, they could be valuable for future improvements.
 - It was demonstrated that using more advanced models and increasing the number of epochs significantly enhances model performance.
 - The Nano version is more lightweight and efficient for training. While training 100 epochs on the Medium model took 33 minutes, the Nano model completed 200 epochs in the same 33-minute timeframe.
-- The best-performing model was **YOLOv11-nano** trained for 200 epochs. With a precision of 94% and a recall of 88%.
+- The best-performing model was **YOLOv11-nano** trained for 200 epochs. With a precision of 94% and a recall of 88% on the validation set.
 - The model performed well during training and validation but struggled on the test dataset, showing signs of overfitting. To improve generalization, techniques like regularization, data augmentation, or balancing the dataset could help.
